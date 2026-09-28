@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/global.css">
+    <title>Vitta | Pediatria Especializada</title>
+</head>
+<body>
+    <header>
+        <img src="/img/logo.png" alt="Logo Vitta" onclick="voltarHome()">
+        <nav>
+                <a href="#servicos">Serviços</a>
+                <a href="#especialidades">Especialidades</a>
+                <a href="agendamento.html">Agendamento</a>
+                <a href="contato.html">Contato</a>
+        </nav>
+    </header>
+    <main>
+        <section class="sessao-inicial">
+            <div class="inicio">
+                <div class="texto-inicial">
+                    <p>Cuidando com carinho desde o primeiro suspiro</p>
+                </div>
+                <div class="imagem-inicial">
+                    <img src="img/crianca.png" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section class="sessao-sobre">
+             <div class="topo"><img src="img/texto-sobre.png" alt="O jeito Vitta de cuidar"></div>
+             <div class="container">
+        <div class="inicio">
+            <div class="imagem-medica">
+            <img src="img/medica-e-bebe.png" alt="Pediatra">
+        </div>
+            
+            <div class="texto-vitta">
+                <p>A Vitta nasceu com o propósito de oferecer um cuidado pediátrico acolhedor, humanizado e atento às necessidades de cada criança, acompanhando de perto cada fase do seu crescimento.
+                    <br>
+                    Nosso compromisso é tornar cada encontro uma experiência de cuidado, confiança e carinho, construindo uma relação próxima com as famílias e contribuindo para que cada criança cresça com saúde, tranquilidade e todo o suporte necessário em sua jornada
+                </p>
+            </div>
+        </section>
+        
+        <section class="sessao-servicos" id="servicos">
+            <div class="topo"><img src="img/texto-servicos-oferecidos.png" alt="Serviços Oferecidos"></div>
+          
+
+            <div class="container-sevicos">
+                <div class="card-servicos card-azul">
+                  <img src="img/icone-hospital.png" alt="">
+                  <h2>Pronto Atendimento</h2>
+                  <hr>
+                  <p>Consulta de urgência em pediatria</p>
+                </div>
+                 <div class="card-servicos card-rosa">
+                  <img src="img/icone-cama-de-hospital.png" alt="">
+                  <h2>Leitos de Internação</h2>
+                  <hr>
+                  <p>Internações clínicas pediátricas</p>
+                </div>
+                 <div class="card-servicos card-azul">
+                  <img src="img/icone-faca.png" alt="">
+                  <h2>Centro Cirúrgico</h2>
+                  <hr>
+                  <p>Cirurgias pediátricas</p>
+                </div>
+                 <div class="card-servicos card-rosa">
+                  <img src="img/icone-cruz.png" alt="">
+                  <h2>Ambulatório</h2>
+                  <hr>
+                  <p>Ambulatório de especialidades médicas</p>
+                </div>
+            </div>
+            <a href="agendamento.html" title="Agendar Consulta">Agendar</a>
+        </section>
+
+        <section class="especialidades" id="especialidades">
+            <div class="topo"><img src="img/texto-especialidades.png" alt="Especialidades"></div>
+
+            <div class="container-especialidades">
+                <a href="agendamento.html?especialidade=Cardiologia" class="card-especialidades" style="background-image: url(img/cardiologia-pediatrica.webp);" title="Agendar consulta de Cardiologia">
+                    <h2>Cardiologia</h2>
+                </a>
+                <a href="agendamento.html?especialidade=Cirurgia-Pediátrica" class="card-especialidades" style="background-image: url(img/cirurgia-pediatrica.webp);" title="Agendar Cirurgia Pediátrica">
+                    <h2>Cirurgia Pediátrica</h2>
+                </a>
+                <a href="agendamento.html?especialidade=Alergologia" class="card-especialidades" style="background-image: url(img/alergologia-pediatrica.webp);" title="Agendar consulta de Alergologia">
+                    <h2>Alergologia</h2>
+                </a>
+                <a href="agendamento.html?especialidade=Imunologia-Pediátrica" class="card-especialidades" style="background-image: url(img/imunologia-pediatrica.webp);" title="Agendar consulta de Imunologia Pediátrica">
+                    <h2>Imunologia Pediátrica</h2>
+                </a>
+                <a href="agendamento.html?especialidade=Pneumologia" class="card-especialidades" style="background-image: url(img/pneumologia.webp);" title="Agendar consulta de Pneumologia">
+                    <h2>Pneumologia</h2>
+                </a>
+                <a href="agendamento.html?especialidade=Radiologia-Pediátrica" class="card-especialidades" style="background-image: url(img/radiologia-infatil.webp);" title="Agendar consulta de Radiologia Pediátrica">
+                    <h2>Radiologia Pediátrica</h2>
+                </a>
+                <a href="agendamento.html?especialidade=Nutrição-Comportamental" class="card-especialidades" style="background-image: url(img/nutricao-compotamental.webp);" title="Agendar consulta de Nutrição Comportamental">
+                    <h2>Nutrição Comportamental</h2>
+                </a>
+                <a href="agendamento.html?especialidade=Ultrassonografia" class="card-especialidades" style="background-image: url(img/ultrassom.webp);" title="Agendar Ultrassonografia">
+                    <h2>Ultrassonografia</h2>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="logo-footer">
+            <img src="img/logo.png" alt="Logo Vitta" onclick="voltarHome()">
+            <p>Cuidando com carinho desde o primeiro suspiro</p>
+        </div>
+
+        <div class="link-footer">
+            <a href="#servicos">Serviços</a>
+            <a href="#especialidades">Especialidades</a>
+            <a href="agendamento.html">Agendamento</a>
+            <a href="contato.html">Contato</a>
+        </div>
+
+        <div class="localizacao-footer">
+            <h3>Onde estamos?</h3>
+            <p>R. Bernardo Ferreira da Cruz, 52 - São Pedro (Venda Nova), Belo Horizonte - MG, 31610-120</p>
+            <p id="tel-footer">(31) 9999-9999</p>
+        </div>
+    </footer>
+
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    <script src="script.js"></script>
+
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+</body>
+</html>

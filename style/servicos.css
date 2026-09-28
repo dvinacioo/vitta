@@ -1,0 +1,101 @@
+.container-sevicos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.card-servicos{
+    width: 310px;
+    height: 320px;
+    display: flex;
+    background-color: aquamarine;
+    flex-direction: column;
+    margin-bottom: 50px;
+    border-radius: 7px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.card-servicos:hover{
+    transform: scale(1.08);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.281);
+}
+
+.card-servicos img{
+    width: 90px;
+    height: 90px;
+    margin-top: 20px;
+    margin: 20px auto 0 auto;
+}
+
+.card-servicos h2{
+    color: white;
+    margin: 20px auto 20px auto;
+    font-size: 27px;
+}
+
+.card-servicos hr{
+    margin: 0 auto 30px auto;
+    width: 100px;
+    height: 1px;
+}
+
+.card-servicos p{
+    text-align: center;
+    font-size: 25px;
+}
+
+.card-azul{
+    background-color: var(--cor-azul);
+}
+.card-azul h2{
+    color: var(--cor-rosa);
+}
+.card-azul hr{
+    background-color: var(--cor-rosa);
+    color: var(--cor-rosa);
+}
+.card-azul p{
+    color: var(--cor-rosa);
+}
+.card-azul img{
+    filter: invert(93%) sepia(21%) saturate(541%) hue-rotate(301deg) brightness(103%) contrast(102%);
+}
+
+.card-rosa{
+    background-color: var(--cor-rosa);
+}
+.card-rosa img{
+    filter: invert(47%) sepia(35%) saturate(1211%) hue-rotate(192deg) brightness(91%) contrast(88%);
+}
+.card-rosa h2{
+    color: var(--cor-azul);
+}
+.card-rosa hr{
+    background-color: var(--cor-azul);
+    color: var(--cor-azul);
+}
+.card-rosa p{
+    color: var(--cor-azul);
+}
+
+.sessao-servicos a{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: var(--cor-azul);
+    color: var(--cor-rosa);
+    padding: 15px;
+    width: 65px;
+    margin: 0 auto;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 20px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.sessao-servicos a:hover{
+    transform: scale(1.08);
+    background-color: #4161ca;
+    color: #ecb5ca;
+}

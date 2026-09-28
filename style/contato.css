@@ -1,0 +1,36 @@
+.container-contato {
+  display: flex;
+  margin-top: 120px;
+}
+iframe {
+  margin-left: 150px;
+}
+
+.caixa-contato {
+  flex-direction: column;
+  margin-left: 150px;
+}
+
+.contato {
+  display: flex;
+  flex-direction: column;
+  color: var(--cor-azul);
+}
+.contato h2 {
+  margin-left: 120px;
+  font-size: 45px;
+}
+.contato p {
+  margin-top: 60px;
+  width: 450px;
+  font-size: 22px;
+  
+}
+.mini-contato {
+  display: flex;
+  text-align: center;
+  margin-top: 60px;
+  font-size: 23px;
+  gap: 50px;
+  color: var(--cor-azul);
+}

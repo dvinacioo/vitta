@@ -1,0 +1,33 @@
+.container-especialidades{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    place-items: center;
+    place-content: center;
+    gap: 15px;
+}
+
+
+.card-especialidades{
+    width: 270px;
+    height: 250px;
+    border-radius: 10px;
+    background-color: var(--cor-azul);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 15px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.card-especialidades:hover{
+    transform: scale(1.08);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.281);
+}
+
+
+.card-especialidades h2{
+    text-align: center;
+    margin-top: 200px;
+    color: var(--cor-rosa);
+    background-color: var(--cor-azul-transparente);
+}

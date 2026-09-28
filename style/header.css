@@ -1,0 +1,31 @@
+header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  display: flex;
+  background-color: #ffd8e7;
+  height: 100px;
+}
+header img {
+  width: 180px;
+  height: 100px;
+  margin-left: 50px;
+}
+header img:hover{
+  cursor: pointer;
+}
+nav {
+  margin: auto 0px;
+}
+nav a {
+  margin-left: 100px;
+  color: #5d78d3;
+  font-size: 30px;
+}
+
+a{
+  text-decoration: none;
+}
+
